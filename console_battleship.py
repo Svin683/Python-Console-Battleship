@@ -2,11 +2,7 @@ import random #python standard libary
 import sys
 import time
 import os
-#! I messed with this a few days after the assignment accidently while showing my friends
-#! Go to more > history > 12/6/25 @5:56 AM for the submitted version
-#!
-#!
-#!
+
 print("Welcome to Console Battleship!")
 
 tutorial = str(input("Do you know how to play the game? (Y/N) "))
@@ -130,14 +126,8 @@ for i in range(2, 6): #2 - 6 because i is used later for boat spawning mechanics
             boatIsValid = False
             break
         #prevents boat from overlapping with other boats
-        for j in range(2, 6):
-            for k in range(0, j
-        
-        
-        
-    
-    \
-    ):
+        for i in range(2, 6):
+            for k in range(0, i):
                 if boatDirs[i] == "hor" and rows[boatRows[i]][boatCols[i] + k] == "▆":
                     boatIsValid = False
                     break
